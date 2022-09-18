@@ -52,7 +52,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   .media-object {
-    width: 128px;
+    width: 300px;
     padding: 10px;
   }
   .media {
