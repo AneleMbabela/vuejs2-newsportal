@@ -32,7 +32,7 @@ export default {
   },
   methods: {
     updateSource: function (source) {
-      this.$http.get('https://newsapi.org/v1/articles?source=' + source + '&apiKey=92e09846a7964bacb5bec2c2e50d0475')
+      this.$http.get('https://newsapi.org/v2/top-headlines?sources=' + source + '&apiKey=92e09846a7964bacb5bec2c2e50d0475')
        .then(response => {
          this.articles = response.data.articles;
        });   
